@@ -118,7 +118,7 @@ async def button(update: Update, context: CallbackContext) -> None:
 # Funzione principale per avviare il bot
 def main():
     # Inserisci il token del tuo bot
-    TELEGRAM_API_TOKEN = '7644270647:AAGMEVmwyzAAnQHUqDAzc4pW10frsbkWtlY'
+    TELEGRAM_API_TOKEN = 'TOKEN'
 
     # Crea l'applicazione del bot
     application = Application.builder().token(TELEGRAM_API_TOKEN).build()
